@@ -1,0 +1,132 @@
+body{
+    background-color:#ffffbe ;
+    color:#141414;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+    overflow: hidden;
+}
+
+#main-header{
+    background-color: #222;
+    color: #fbf8f6;
+    text-align: center;
+}
+
+#navbar{
+    background-color: #333;
+    color: #fbf8f6;
+}
+
+#navbar ul{
+    padding: 0;
+    list-style: none;
+}
+
+#navbar ul li{
+    display: inline;
+}
+
+#navbar ul li a{
+    color: #fbf8f6;
+    text-decoration: none;
+    padding-right: 15px;
+    font-size: 18px;
+}
+#navbar ul li a:hover{
+    text-decoration: underline;
+}
+
+#showcase{
+    background-image: url('https://media.istockphoto.com/id/1418628408/vector/abstract-blurred-gradient-background-colours-with-dynamic-effect.jpg?s=612x612&w=0&k=20&c=v7ja1vfncSbHdNsgyjbtaiOPiexqUOLhRW_4L3PQ1ww=');
+    background-position: center;
+    background-size: cover;
+    min-height: 200px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#showcase p{
+    color: #311900;
+    font-size: 25px;
+    line-height: 1.6em;
+}
+
+#main{
+    float: left;
+    width: 70%;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+#sidebar{
+    float: right;
+    width: 30%;
+    background:url('https://media.istockphoto.com/id/1418628408/vector/abstract-blurred-gradient-background-colours-with-dynamic-effect.jpg?s=612x612&w=0&k=20&c=v7ja1vfncSbHdNsgyjbtaiOPiexqUOLhRW_4L3PQ1ww=');
+    background-position: center center;
+    background-size: cover;
+    border: #222 solid 5px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#sidebar h3{
+    color: #280f00;
+    text-align: center;
+}
+
+#sidebar p{
+    color: #280f00;
+    text-align: center;
+}
+#sidebar ul{
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+#sidebar ul li{
+    margin: 10px 0;
+}
+
+#sidebar ul li a{
+    color: #280f00;
+    text-decoration: none;
+}
+
+#sidebar ul li a:hover{
+    color: #fd0000;
+    text-decoration: underline;
+}
+
+#sidebar ul li a:active{
+    color: #b2754f;
+    text-decoration: none;
+}
+
+#main-footer{
+    background-color: #222;
+    color: #fbf8f6;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+@media(max-width:600px){
+    #main{
+        width: 100%;
+        float: none;
+    }
+    #sidebar{
+        width: 100%;
+        float: none;
+        margin-top: 20px;
+    }
+}
